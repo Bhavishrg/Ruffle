@@ -1,0 +1,9 @@
+pyyaml
+omegaconf==2.1.2
+numpy==1.21.6
+crypten
+crypto
+pyaes
+torch==1.9.0
+sklearn
+ecdsa
