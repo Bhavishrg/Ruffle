@@ -1,4 +1,4 @@
-## "Ruffle: Rapid 3-Party Shuffle Protocols"
+## Ruffle: Rapid 3-Party Shuffle Protocols
 Implementation of paper title "Ruffle: Rapid 3-Party Shuffle Protocols"
 
 ## WARNING: This is not production-ready code.
@@ -49,5 +49,6 @@ $ python3 run.py -h
 ```
 
 Parameters:
+
 -n, --numclients: Number of clients
 -m, --msgblocks: number of blocks of messages of size 8 Bytes
