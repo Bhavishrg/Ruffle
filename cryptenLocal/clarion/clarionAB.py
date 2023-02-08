@@ -429,4 +429,3 @@ def clar(numBlocks, numClients):
         print(f'total reeived: {totalCommReceived}\n')
         print("--------------------------------------\n--------------------------------------\n\n")
 
-clar(2, 10)

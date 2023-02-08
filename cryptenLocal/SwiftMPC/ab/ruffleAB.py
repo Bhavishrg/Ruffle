@@ -241,20 +241,6 @@ def ab(numBlocks, numClients):
         totalCommSent2 = sentEnd2 - sentStart2
         totalCommReceived2 = recievedEnd2 - recievedStart2
         print("logs/ab/party1.txt", "a")
-        f.write("\n--------------------------------------\n--------------------------------------\n")
-        f.write(f"NumClients: {numClients}\n")
-        f.write(f"MsgSize: {numBlocks*16}\n")
-        f.write("---------------Preprocessing------------------\n")
-        f.write(f"My time: {totime}\n")
-        f.write(f"Sent to 0: {totalCommSent0}\n")
-        f.write(f"Sent to 1: {totalCommSent1}\n")
-        f.write(f"Sent to 2: {totalCommSent2}\n")
-        f.write(f"Received from 0: {totalCommReceived0}\n")
-        f.write(f"Received from 1: {totalCommReceived1}\n")
-        f.write(f"Received from 2: {totalCommReceived2}\n")
-        f.write(f'total sent: {totalCommSent}\n')
-        f.write(f'total reeived: {totalCommReceived}\n')
-        f.write("--------------------------------------\n--------------------------------------\n\n")
 
         ## send alpha and its commitments to clients ##
         sendtoclients(rank, al1, al2, c)
@@ -514,4 +500,4 @@ def ab(numBlocks, numClients):
         print(f'total reeived: {totalCommReceived}\n')
         print("--------------------------------------\n--------------------------------------\n\n")
 
-ab(2, 10)   
+# ab(2, 1000)
