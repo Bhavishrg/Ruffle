@@ -51,4 +51,5 @@ $ python3 run.py -h
 Parameters:
 
 -n, --numclients: Number of clients
+
 -m, --msgblocks: number of blocks of messages of size 8 Bytes
